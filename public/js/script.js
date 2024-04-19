@@ -18,3 +18,11 @@ window.addEventListener('resize', () => {
     }
 
 });
+
+
+let menuitems = document.querySelectorAll('.menuitem');    // To close menu bar after redirecting to Any section  
+for (menuitem of menuitems) {
+    menuitem.addEventListener('click', () => {
+        menu.classList.add('d-none');
+    })
+}
