@@ -10,6 +10,7 @@
     padding: 4vw 0vw;
     align-items: center;
     justify-content: center;
+    overflow: visible;
 }
 
 .sec1 .myimg {
@@ -30,6 +31,7 @@
 
 .sec1 .myimg img {
     width: 30vw;
+  
 
 }
 
