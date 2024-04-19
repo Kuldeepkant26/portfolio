@@ -5,6 +5,10 @@ mnubtn.addEventListener('click', () => {
     menu.classList.toggle('d-none');
 });
 
+if (window.innerWidth < 1150) {
+    menu.classList.add('d-none');
+}
+
 window.addEventListener('resize', () => {
     if (window.innerWidth > 1150) {
         menu.classList.remove('d-none');
@@ -12,5 +16,5 @@ window.addEventListener('resize', () => {
     if (window.innerWidth < 1150) {
         menu.classList.add('d-none');
     }
-    
+
 });
