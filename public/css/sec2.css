@@ -93,12 +93,11 @@
 
 .exp-edu p {
     font-family: "Poppins", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-style: normal;
     text-align: center;
     color: #555555;
-    font-size: 16px;
-    text-align: justify;
+    font-size: 14px;
 }
 
 
@@ -134,7 +133,7 @@
         border-radius: 25px;
     }
 
-   
+
 
 }
 
