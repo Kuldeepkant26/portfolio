@@ -11,13 +11,15 @@
     padding: 3rem 12vw;
     position: fixed;
     top: 0px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
     /* Semi-transparent background */
-    backdrop-filter: blur(30px);
+    /* backdrop-filter: blur(30px); */
     /* Apply a 10px blur effect */
 }
 
-
+#mnubtn {
+    cursor: pointer;
+}
 .navbar .left {
     font-weight: 400;
     font-size: 1.6rem;
