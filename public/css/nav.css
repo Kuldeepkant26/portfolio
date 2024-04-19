@@ -94,6 +94,7 @@
         /* Apply backdrop blur effect */
         -webkit-backdrop-filter: blur(30px);
         z-index: -1;
+        border-radius: 14px;
     }
 
     .navbar .right .menu a {
