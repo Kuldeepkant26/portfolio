@@ -21,164 +21,10 @@
             padding: 0px;
             box-sizing: border-box;
         }
-
-        .sec1 {
-            width: 100%;
-            overflow: hidden;
-           
-            display: flex;
-
-            font-family: "Poppins", sans-serif;
-            font-weight: 400;
-            font-style: normal;
-            padding: 4vw 0vw;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .sec1 .myimg {
-
-            width: 30vw;
-            height: 30vw;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            padding-top: 9rem;
-            background: #ffffff;
-            box-shadow: 47px 47px 94px #969696,
-                -47px -47px 94px #ffffff;
-
-        }
-
-        .sec1 .myimg img {
-            width: 30vw;
-
-        }
-
-        .sec1 .me {
-            
-            width: 400px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-
-        .sec1 .me p {
-            font-weight: 600;
-            color: rgb(120, 116, 116);
-
-        }
-
-        .sec1 .me h2 {
-            font-size: 2.7rem;
-        }
-
-        .sec1 .me h3 {
-            color: gray;
-            font-weight: 400;
-            font-style: normal;
-            font-size: 1.9rem;
-        }
-
-        .sec1 .me .btncont {
-            margin-top: 0.4rem;
-            display: flex;
-
-            width: 100%;
-            justify-content: center;
-            gap: 1.5rem;
-
-        }
-
-        .sec1 .me .btncont .cvbtn {
-            text-decoration: none;
-            border: 1px solid black;
-            padding: 10px;
-            border-radius: 28px;
-            color: black;
-            transition: all;
-            transition-duration: 0.3s;
-            font-size: 0.7rem;
-            font-weight: 700;
-            padding: 15px;
-            cursor: pointer;
-
-        }
-
-        .sec1 .me .btncont .cvbtn:hover {
-            background-color: black;
-            color: white;
-
-        }
-
-        .sec1 .me .btncont .contactbtn {
-            text-decoration: none;
-            border: 1px solid black;
-            padding: 10px;
-            border-radius: 28px;
-            color: rgb(255, 255, 255);
-            transition: all;
-            transition-duration: 0.5s;
-            font-size: 0.7rem;
-            font-weight: 700;
-            padding: 15px;
-            background-color: black;
-            cursor: pointer;
-
-        }
-
-        .sec1 .me .btncont .contactbtn:hover {
-            background-color: white;
-            color: black;
-        }
-
-        #lincont {
-          
-            width: 100%;
-            display: flex;
-            justify-content: center;
-            gap: 1.3rem;
-            padding: 0.8rem 0rem;
-        }
-
-        #lincont a {
-            text-decoration: none;
-            color: white;
-
-        }
-
-        #lincont a i {
-
-            border-radius: 50%;
-            background-color: black;
-            color: white;
-            font-size: 2rem;
-            padding: 5px;
-        }
-        @media (max-width:1150px) {
-            .sec1{
-                flex-direction: column;
-            }
-            .sec1 .myimg {
-
-                width: 300px;
-                height: 300px;
-               margin-bottom: 2rem;
-    
-            }
-    
-            .sec1 .myimg img {
-                width: 300px;
-    
-            }
-            
-        }
     </style>
     <link rel="stylesheet" href="public/css/nav.css">
+    <link rel="stylesheet" href="public/css/sec1.css">
 </head>
-
 <body>
     <nav class="navbar">
         <div class="left">KULDEEP KANT</div>
@@ -195,7 +41,7 @@
     </nav>
     <div class="sec1">
         <div class="myimg">
-            <img src="/images/me.PNG" alt="">
+            <img src="images/me.PNG" alt="">
         </div>
         <div class="me">
             <p>Hello, I'm</p>
@@ -208,7 +54,6 @@
             <div id="lincont">
                 <a href=""><i class="ri-linkedin-fill"></i></a>
                 <a href=""><i class="ri-github-fill"></i></a>
-
             </div>
         </div>
     </div>
