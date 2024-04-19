@@ -11,7 +11,7 @@
     padding: 3rem 12vw;
     position: fixed;
     top: 0px;
-  
+
     /* Semi-transparent background */
     /* backdrop-filter: blur(30px); */
     /* Apply a 10px blur effect */
@@ -26,8 +26,13 @@
     height: 100%;
     background-color: rgba(146, 137, 137, 0.834);
     /* Semi-transparent white background */
-    filter: blur(40px);
+    /* filter: blur(40px); */
     /* Apply blur effect */
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Semi-transparent white background */
+    backdrop-filter: blur(30px);
+    /* Apply backdrop blur effect */
+    -webkit-backdrop-filter: blur(30px);
     z-index: -1;
 }
 
