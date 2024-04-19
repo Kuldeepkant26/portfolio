@@ -24,13 +24,13 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(146, 137, 137, 0.834);
+   
     /* Semi-transparent white background */
     /* filter: blur(40px); */
     /* Apply blur effect */
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.1);
     /* Semi-transparent white background */
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(40px);
     /* Apply backdrop blur effect */
     -webkit-backdrop-filter: blur(30px);
     z-index: -1;
@@ -64,7 +64,7 @@
 
         position: absolute;
         top: 50px;
-        left: -80px;
+        left: -95px;
         display: flex;
         flex-direction: column;
         align-items: center;
