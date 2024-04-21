@@ -1,0 +1,92 @@
+.sec4 {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    padding-bottom: 1rem;
+}
+
+.sec4 .proCont {
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+
+}
+
+.proCont .pro {
+    width: 40%;
+    height: fit-content;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 25px;
+    overflow: hidden;
+
+}
+
+.pro h2 {
+    font-size: 28px;
+    margin: 16px;
+}
+
+.pro img {
+    width: 87%;
+    border-radius: 25px;
+}
+
+.pro .btncont {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.pro .btncont a {
+    text-decoration: none;
+    width: 25%;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    border-radius: 20px;
+    font-size: 13.13px;
+    font-weight: 600;
+    color: black;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+    padding: 16px;
+}
+
+.pro .btncont a:hover {
+    background-color: black;
+    color: white;
+}
+
+.pro .btncont a:hover i {
+    font-size: 1rem;
+}
+
+@media (max-width:700px) {
+    .sec4 .proCont {
+        flex-direction: column;
+    }
+
+    .proCont .pro {
+        width: 90%;
+    }
+}
