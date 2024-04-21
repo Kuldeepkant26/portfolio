@@ -89,4 +89,7 @@
     .proCont .pro {
         width: 90%;
     }
+    .pro .btncont a {
+        width: 35%;
+    }
 }
