@@ -38,6 +38,138 @@
         section {
             margin-top: 4vw;
         }
+
+        .sec5 {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            padding: 1rem;
+            gap: 1rem;
+
+        }
+
+        .sec5 .contactBox {
+            padding: 2rem;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            border: 1px solid gray;
+            border-radius: 25px;
+            gap: 3vw;
+
+
+        }
+
+        .sec5 .contactBox div {
+            display: flex;
+            align-items: center;
+
+            gap: 1rem;
+        }
+
+        .sec5 .contactBox div i {
+            font-size: 1.3rem;
+            color: rgb(255, 255, 255);
+            background-color: black;
+            padding: 0.3rem;
+            border-radius: 50%;
+        }
+
+        .sec5 .contactBox div a {
+            text-decoration: none;
+            color: black;
+            position: relative;
+        }
+
+        .sec5 .contactBox div a:hover {
+            opacity: 0.8;
+        }
+
+        .sec5 .contactBox div a::before {
+            content: '';
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 0%;
+            transition: all;
+            transition-duration: 0.3s;
+        }
+
+        .sec5 .contactBox div a:hover::before {
+            border: 1px solid black;
+            width: 100%;
+            opacity: 0.7;
+        }
+
+        .sec5 .options {
+            display: flex;
+            gap: 1.7rem;
+            padding-top: 2vw;
+        }
+
+        .sec5 .options a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.7rem;
+            font-weight: 300;
+            transition: all;
+            transition-duration: 0.3s;
+        }
+
+        .sec5 .options a:hover {
+            transform: translateY(5px);
+        }
+
+        .sec5 p {
+            font-size: 1.3rem;
+            padding-top: 2rem;
+            color: #555555;
+        }
+
+        @media (max-width:540px) {
+            .sec5 .contactBox {
+                padding: 0.5rem;
+                flex-direction: column;
+                width: 80%;
+                gap: 1vw;
+
+
+            }
+
+            .sec5 .contactBox div {
+
+                gap: 0.6rem;
+            }
+
+            .sec5 .options {
+                display: flex;
+                gap: 0.3rem;
+                padding-top: 2vw;
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .sec5 .options a {
+                text-decoration: none;
+                color: black;
+                font-size: 1.3rem;
+                font-weight: 300;
+                transition: all;
+                transition-duration: 0.3s;
+            }
+
+            .sec5 p {
+                font-size: 1rem;
+                padding-top: 1.4rem;
+                color: #555555;
+                text-align: center;
+            }
+        }
     </style>
 </head>
 
@@ -49,7 +181,7 @@
                 <a href="#lincont" class="menuitem">About</a>
                 <a href="#ski" class="menuitem">My Skills</a>
                 <a href="#projects" class="menuitem">Projects</a>
-                <a href="" class="menuitem">Contact</a>
+                <a href="#contact" class="menuitem">Contact</a>
             </div>
             <i class="ri-menu-line" id="mnubtn" style="z-index: 10;"></i>
         </div>
@@ -65,7 +197,7 @@
             <h3> Mern stack Devloper</h3>
             <div class="btncont">
                 <a href="https://www.dropbox.com/scl/fi/6fpfg8k9cgjyosx9935kd/KuldeepResume.docx?rlkey=1pl79lpqnp684fegbjqhaklne&st=wievr5sp&dl=0"
-                   target="_blank" class="cvbtn">Download CV</a>
+                    target="_blank" class="cvbtn">Download CV</a>
                 <a href="#" class="contactbtn">Conatct Info</a>
             </div>
             <div id="lincont">
@@ -231,6 +363,25 @@
                             class="ri-external-link-line"></i></a>
                 </div>
             </div>
+        </div>
+    </section>
+    <section class="sec5">
+        <p class="minihd">Get in Touch</p>
+        <h1 class="mainhd">Conatct ME</h1>
+        <div class="contactBox">
+            <div class="email">
+                <i class="ri-mail-line"></i>
+                <a href="mailto:kuldeepkant26@gmail.com" target="_blank">kuldeepkant26@gmail.com</a>
+            </div>
+            <div class="linkedIn"><i class="ri-linkedin-fill"></i><a href="#" target="_blank">LinkedIn</a></div>
+        </div>
+        <div class="options">
+            <a href="#lincont" class="menuitem">About</a>
+            <a href="#ski" class="menuitem">My Skills</a>
+            <a href="#projects" class="menuitem">Projects</a>
+            <a href="#contact" class="menuitem">Contact</a>
+        </div>
+        <p id="contact">Copyright © 2024 Kuldeep Kant. All Rights Reserved.</p>
         </div>
     </section>
     <script src="public/js/script.js">
