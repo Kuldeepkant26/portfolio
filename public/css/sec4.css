@@ -130,4 +130,11 @@
     .pro .btncont a {
         width: 35%;
     }
+    .pro img {
+        width: 80%;
+        height: 46vh;
+        border-radius: 25px;
+        
+    }
+    
 }
