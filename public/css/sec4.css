@@ -134,9 +134,7 @@
         width: 90%;
         height: 46vh;
         border-radius: 25px;
-        
-
-        
+        object-fit: fill;
     }
     
 }
