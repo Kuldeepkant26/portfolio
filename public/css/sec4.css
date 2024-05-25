@@ -13,12 +13,13 @@
 .sec4 .proCont {
     width: 100%;
     height: fit-content;
-
+    padding: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
     margin-top: 1rem;
+    flex-wrap: wrap;
 
 
 }
@@ -37,6 +38,38 @@
 
 }
 
+.pro .project-info {
+    width: 100%;
+    border: 1px solid red;
+    height: 300px;
+}
+
+.project-info {
+    color: black;
+}
+
+.project-info .name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.project-info .pdescription {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.project-info .skills-used h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.project-info .skills-used .skill {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+
 .pro h2 {
     font-size: 28px;
     margin: 16px;
@@ -44,8 +77,10 @@
 }
 
 .pro img {
-    width: 87%;
+    width: 80%;
+    height: 60vh;
     border-radius: 25px;
+    
 }
 
 .pro .btncont {
@@ -91,6 +126,7 @@
     .proCont .pro {
         width: 90%;
     }
+
     .pro .btncont a {
         width: 35%;
     }
