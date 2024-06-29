@@ -12,6 +12,7 @@ if (window.innerWidth < 1150) {
 window.addEventListener('resize', () => {
     if (window.innerWidth > 1150) {
         menu.classList.remove('d-none');
+        
     }
     if (window.innerWidth < 1150) {
         menu.classList.add('d-none');
@@ -27,3 +28,4 @@ if (window.innerWidth < 1150) {
         })
     }
 }
+
