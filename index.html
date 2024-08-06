@@ -106,13 +106,31 @@
             opacity: 0.7;
         }
 
-        .sec5 .options {
+        footer {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            padding: 1rem;
+
+        }
+
+        footer p {
+            font-size: 1rem;
+            padding-top: 2rem;
+            color: #555555;
+        }
+
+        footer .options {
             display: flex;
             gap: 1.7rem;
             padding-top: 2vw;
         }
 
-        .sec5 .options a {
+        footer .options a {
             text-decoration: none;
             color: black;
             font-size: 1.7rem;
@@ -121,7 +139,7 @@
             transition-duration: 0.3s;
         }
 
-        .sec5 .options a:hover {
+        footer .options a:hover {
             transform: translateY(5px);
         }
 
@@ -141,12 +159,12 @@
 
             }
 
-            .sec5 .contactBox div {
+            footer .contactBox div {
 
                 gap: 0.6rem;
             }
 
-            .sec5 .options {
+            footer .options {
                 display: flex;
                 gap: 0.3rem;
                 padding-top: 2vw;
@@ -154,7 +172,7 @@
                 align-items: center;
             }
 
-            .sec5 .options a {
+            footer .options a {
                 text-decoration: none;
                 color: black;
                 font-size: 1.3rem;
@@ -164,6 +182,13 @@
             }
 
             .sec5 p {
+                font-size: 1rem;
+                padding-top: 1.4rem;
+                color: #555555;
+                text-align: center;
+            }
+
+            footer p {
                 font-size: 1rem;
                 padding-top: 1.4rem;
                 color: #555555;
@@ -196,7 +221,7 @@
             <h2>Kuldeep Kant</h2>
             <h3> Mern stack Devloper</h3>
             <div class="btncont">
-                <a href="https://drive.google.com/file/d/1XIaiM32OBRO1PYykLxzk6aRuGqZJnwfq/view?usp=sharing"
+                <a href="https://drive.google.com/file/d/1j1dBLhO6A5t3vsRguBQRsozqYZktP78M/view?usp=sharing"
                     target="_blank" class="cvbtn">Download CV</a>
                 <a href="#contact" class="contactbtn">Conatct Info</a>
             </div>
@@ -387,6 +412,9 @@
             <div class="linkedIn"><i class="ri-linkedin-fill"></i><a
                     href="https://www.linkedin.com/in/kuldeep-kant-975746281" target="_blank">LinkedIn</a></div>
         </div>
+
+    </section>
+    <footer>
         <div class="options">
             <a href="#lincont" class="menuitem">About</a>
             <a href="#ski" class="menuitem">My Skills</a>
@@ -394,7 +422,7 @@
         </div>
         <p id="contact">Copyright © 2024 Kuldeep Kant. All Rights Reserved.</p>
         </div>
-    </section>
+    </footer>
     <script src="public/js/script.js">
         // Smooth scrolling for internal links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
