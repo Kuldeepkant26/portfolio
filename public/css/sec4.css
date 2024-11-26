@@ -37,6 +37,17 @@
     overflow: hidden;
 
 }
+.proCont .pro .skills-used{
+  margin-bottom: 1rem;
+  text-align: center;
+
+}
+.proCont .pro .pro-info{
+   font-size: 11px;
+  text-align: center;
+  margin-bottom: 5px;
+
+}
 
 .pro .project-info {
     width: 100%;
@@ -51,7 +62,7 @@
 .project-info .name {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10px;
+   
 }
 
 .project-info .pdescription {
@@ -77,8 +88,8 @@
 }
 
 .pro img {
-    width: 80%;
-    height: 60vh;
+    width: 70%;
+    height: 50vh;
     border-radius: 25px;
     
 }
@@ -125,6 +136,7 @@
 
     .proCont .pro {
         width: 90%;
+        padding: 10px;
     }
 
     .pro .btncont a {
