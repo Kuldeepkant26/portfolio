@@ -40,6 +40,7 @@
 .proCont .pro .skills-used{
   margin-bottom: 1rem;
   text-align: center;
+  font-weight: 500;
 
 }
 .proCont .pro .pro-info{
@@ -73,6 +74,7 @@
 .project-info .skills-used h4 {
     font-size: 20px;
     margin-bottom: 10px;
+    font-weight: 200;
 }
 
 .project-info .skills-used .skill {
